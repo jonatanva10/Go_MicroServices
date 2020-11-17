@@ -40,8 +40,8 @@ function init() {
 		'/reservations': function() {
 			getAll('reservations');
 		},
-		'/authors': function() {
-			getAll('authors');
+		'/clients': function() {
+			getAll('clients');
 		},
 		'/publishers': function() {
 			getAll('publishers');
@@ -49,8 +49,8 @@ function init() {
 		'/reservationById': function(_, query) {
 			getById(query, 'reservations');
 		},
-		'/authorById': function(_, query) {
-			getById(query, 'authors');
+		'/clientById': function(_, query) {
+			getById(query, 'clients');
 		},
 		'/publisherById': function(_, query) {
 			getById(query, 'publishers');

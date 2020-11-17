@@ -1,0 +1,42 @@
+<h4 style="margin-top: 15px">{{ client }}</h4>
+<h5>Client's details</h5>
+
+<form>
+    <div class="row">
+        <div class="six columns">
+            <label for="idInput">ID</label>
+            <input class="u-full-width" id="_id" type="text" value="{{ _id }}" readonly/>
+        </div>
+        <div class="six columns">
+            <label for="nationalityInput">Client</label>
+            <input class="u-full-width" id="client" type="text" value="{{ client }}" readonly/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for="birthInput">Phone</label>
+            <input class="u-full-width" id="phone" type="text" value="{{ phone }}"  readonly/>
+        </div>
+        <div class="six columns">
+            <label for="fieldsInput">Email</label>
+            <input class="u-full-width" id="email" type="text" value="{{ email  }}"  readonly/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for="birthInput">Address</label>
+            <input class="u-full-width" id="address" type="text" value="{{ address }}"  readonly/>
+        </div>
+        <div class="six columns">
+            <label for="fieldsInput">Country</label>
+            <input class="u-full-width" id="country" type="text" value="{{ country  }}"  readonly/>
+        </div>
+    </div>
+</form>
+
+<h5>Reservations</h5>
+<ul>
+    {{#reservations}}
+    <li><a href="/reservationById/?id={{reservation_id}}">{{hotel}}</li>
+    {{/books}}
+</ul>

@@ -1,0 +1,8 @@
+<h3 style="margin-top: 15px">Clients Information</h3>
+This section presents information about the clients of hotel
+<p>
+<ul>
+  {{#.}}
+    <li><a href='/clientById/?id={{ _id }}'> {{ client }}</a></li>
+  {{/.}}
+</ul>

@@ -11,7 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="366c409a-17db-4156-bc7b-c5d127a49b27" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/www/template/detail/clients.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +39,12 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www/template/detail" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jonathan\Documents\Repositorio_Tarea_6\www\template\detail" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
@@ -56,7 +63,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Commit Tarea 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit Tarea 6" />
+    <MESSAGE value="Update URL Site" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update URL Site" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -70,9 +78,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="576" y="224" key="EnvironmentVariablesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605572533861" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605572629116">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605572993266">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605572629116" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605572993266" />
   </component>
 </project>
