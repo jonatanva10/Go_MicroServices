@@ -96,7 +96,7 @@ var jsonData string = `[
 				"hotel": "Guanacaste Riu Hotel"
 			}
 		]
-	},
+	}
 ]`
 
 func FindItem(id int) *Client {
