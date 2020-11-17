@@ -7,20 +7,19 @@ import (
 	"strconv"
 )
 
-type RerservationRef struct {
+type ReservationRef struct {
 	ReservationId int    `json:"reservation_id"`
 	Hotel         string `json:"hotel"`
 }
 
 type Client struct {
-	Id           int               `json:"_id"`
-	Client       string            `json:"client"`
-	Phone        string            `json:"phone"`
-	Email        string            `json:"email"`
-	Address      string            `json:"address"`
-	Country      string            `json:"country"`
-	Fields       string            `json:"fields"`
-	Reservations []RerservationRef `json:"reservations"`
+	Id           int              `json:"_id"`
+	Client       string           `json:"client"`
+	Phone        string           `json:"phone"`
+	Email        string           `json:"email"`
+	Address      string           `json:"address"`
+	Country      string           `json:"country"`
+	Reservations []ReservationRef `json:"reservations"`
 }
 
 var items []Client
