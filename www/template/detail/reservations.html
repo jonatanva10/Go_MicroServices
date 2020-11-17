@@ -1,0 +1,38 @@
+<h4 style="margin-top: 15px">{{ hotel }}</h4>
+<h5>Reservation's details</h5>
+<form>
+  <div class="row">
+    <div class="six columns">
+       <label for="idInput">ID</label>
+       <input class="u-full-width" type="text" id="_id" value="{{ _id }}" readonly/>
+    </div>
+    <div class="six columns">
+       <label for="copyrightInput">Start Date</label>
+       <input class="u-full-width" type="text" id="startDate" value="{{ startDate }}" readonly/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="six columns">
+       <label for="editionInput">End Date</label>
+       <input class="u-full-width" type="text" id="endDate" value="{{endDate }}" readonly/>
+    </div>
+    <div class="six columns">
+       <label for="editionInput">Hotel</label>
+       <input class="u-full-width" type="text" id="hotel" value="{{hotel }}" readonly/>
+    </div>
+  </div>
+  <div class="row">
+    <div class="six columns">
+       <label for="clientInput">Client</label>
+       <a href="/clientById/?id={{ client_id }}">
+         <input class="u-full-width" type="button" id=" client" value="{{ client }}" readonly/>
+       </a>
+    </div>
+    <div class="six columns">
+       <label for="roomInput">Room</label>
+       <a href="/roomById/?id={{ room_id }}">
+         <input class="u-full-width" type="button" id="room" value="{{ room }}" readonly/>
+       </a>
+    </div>
+  </div>
+</form>

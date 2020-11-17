@@ -1,0 +1,8 @@
+<h3 style="margin-top: 15px">Reservations Information</h3>
+This section presents information about reservations
+<p>
+<ul>
+  {{#.}}
+    <li><a href='/reservationById/?id={{ _id }}'> {{ hotel }}</a></li>
+  {{/.}}
+</ul>
