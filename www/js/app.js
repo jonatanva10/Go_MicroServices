@@ -1,5 +1,5 @@
 function getAll(entity) {
-	fetch('https://faas-vindas.netlify.app/api/' + entity)
+	fetch('https://tarea6-gameofthrones.netlify.app/api/' + entity)
 	  .then((response) => response.json())
 		.then((data) => {
 			fetch('/template/list/' + entity + '.html')
@@ -13,7 +13,7 @@ function getAll(entity) {
 
 function getById(query, entity) {
 	var params = new URLSearchParams(query);
-	fetch('https://faas-vindas.netlify.app/api/' + entity + '/?id=' + params.get('id'))
+	fetch('https://tarea6-gameofthrones.netlify.app/api/' + entity + '/?id=' + params.get('id'))
 	  .then((response) => response.json())
 		.then((data) => {
 			fetch('/template/detail/' + entity + '.html')
