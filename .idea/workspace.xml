@@ -11,13 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="366c409a-17db-4156-bc7b-c5d127a49b27" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/rooms/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/template/detail/rooms.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/www/template/list/rooms.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/www/template/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/template/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +69,8 @@
     <MESSAGE value="Retry clients section" />
     <MESSAGE value="Fix identation" />
     <MESSAGE value="Fix css styles" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix css styles" />
+    <MESSAGE value="Add rooms functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add rooms functions" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -89,15 +84,16 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="576" y="224" key="EnvironmentVariablesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605572533861" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1605629748667">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2" timestamp="1605664889870">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605572993266" />
-    <state x="1753" y="139" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605575752890" />
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605664889870" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605629748667" />
-    <state x="390" y="97" width="585" height="534" key="find.popup" timestamp="1605590091035">
-      <screen x="0" y="0" width="1366" height="728" />
+    <state x="1914" y="139" width="823" height="763" key="find.popup" timestamp="1605665095602">
+      <screen x="1366" y="0" width="1920" height="1040" />
     </state>
+    <state x="1914" y="139" width="823" height="763" key="find.popup/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605665095602" />
     <state x="390" y="97" width="585" height="534" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1605590091035" />
   </component>
 </project>
