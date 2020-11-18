@@ -10,9 +10,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="366c409a-17db-4156-bc7b-c5d127a49b27" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/www/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="366c409a-17db-4156-bc7b-c5d127a49b27" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,7 +68,8 @@
     <MESSAGE value="Fix identation" />
     <MESSAGE value="Fix css styles" />
     <MESSAGE value="Add rooms functions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add rooms functions" />
+    <MESSAGE value="Fix label´s room" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix label´s room" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -84,11 +83,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="576" y="224" key="EnvironmentVariablesDialog/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605572533861" />
-    <state x="1753" y="139" key="Vcs.Push.Dialog.v2" timestamp="1605664889870">
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2" timestamp="1605665160810">
       <screen x="1366" y="0" width="1920" height="1040" />
     </state>
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@0.0.1366.728" timestamp="1605572993266" />
-    <state x="1753" y="139" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605664889870" />
+    <state x="1753" y="139" key="Vcs.Push.Dialog.v2/0.0.1366.728/1366.0.1920.1040@1366.0.1920.1040" timestamp="1605665160810" />
     <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1605629748667" />
     <state x="1914" y="139" width="823" height="763" key="find.popup" timestamp="1605665095602">
       <screen x="1366" y="0" width="1920" height="1040" />
