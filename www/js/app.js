@@ -43,8 +43,8 @@ function init() {
 		'/clients': function() {
 			getAll('clients');
 		},
-		'/publishers': function() {
-			getAll('publishers');
+		'/rooms': function() {
+			getAll('rooms');
 		},
 		'/reservationById': function(_, query) {
 			getById(query, 'reservations');
@@ -52,8 +52,8 @@ function init() {
 		'/clientById': function(_, query) {
 			getById(query, 'clients');
 		},
-		'/publisherById': function(_, query) {
-			getById(query, 'publishers');
+		'/roomById': function(_, query) {
+			getById(query, 'rooms');
 		}
 	});
 	router.on(() => home());

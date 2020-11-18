@@ -1,0 +1,42 @@
+<h4 style="margin-top: 15px">{{ room }}</h4>
+<h5>Rooms's details</h5>
+
+<form>
+    <div class="row">
+        <div class="six columns">
+            <label for="idInput">ID</label>
+            <input class="u-full-width" id="_id" type="text" value="{{ _id }}" readonly/>
+        </div>
+        <div class="six columns">
+            <label for="countryInput">Room</label>
+            <input class="u-full-width" id="room" type="text" value="{{ room }}" readonly/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for="foundedInput">Price Per Night</label>
+            <input class="u-full-width" id="pricePerNight" type="text" value="{{ pricePerNight }}"  readonly/>
+        </div>
+        <div class="six columns">
+            <label for="genereInput">floor</label>
+            <input class="u-full-width" id="floor" type="text" value="{{ floor  }}"  readonly/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for="foundedInput">Maximum People</label>
+            <input class="u-full-width" id="maximumPeople" type="text" value="{{ maximumPeople }}"  readonly/>
+        </div>
+        <div class="six columns">
+            <label for="genereInput">Has a balcony</label>
+            <input class="u-full-width" id="hasAbalcony" type="text" value="{{ hasAbalcony  }}"  readonly/>
+        </div>
+    </div>
+</form>
+
+<h5>Reservations</h5>
+<ul>
+{{#reservations}}
+  <li><a href="/reservationById/?id={{reservation_id}}">{{hotel}}</li>
+{{/reservations}}
+</ul>
